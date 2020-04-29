@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/AdrianDucao/node.js-practice/issues"
   },
-  "homepage": "https://github.com/AdrianDucao/node.js-practice#readme"
+  "homepage": "https://github.com/AdrianDucao/node.js-practice#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
 }
