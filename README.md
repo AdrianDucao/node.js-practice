@@ -6,14 +6,18 @@ learning node.js for future projects
 * node.js
 * express
 * path
+* ejs - for easy templating
+* bootstrap
 
 ## creating first app
+installing all dependencies
 ```
 $ mkdir nodejs-practice
 $ cd nodejs-practice
 $ npm init
 $ npm install express --save
 $ npm install path --save
+$ npm install ejs --save
 ```
 then open your text editor (vscode, sublime, etc.)
 
