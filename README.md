@@ -1,6 +1,9 @@
 # node.js-practice
 learning node.js for future projects
 
+## Note
+* use your own MongoDB keys
+
 ## Dependencies
 * npm
 * node.js
