@@ -8,6 +8,8 @@ learning node.js for future projects
 * path
 * ejs - for easy templating
 * bootstrap
+* MongoDB
+* Mongoose
 
 ## creating first app
 installing all dependencies
