@@ -3,28 +3,28 @@
     <h1>Register</h1>
     <form style="width: 500px;">
         <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" id="password" name="password">
         </div>
         <div class="form-group">
             <label>Username</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" id="username" name="username">
         </div>
         <div class="form-group">
             <label>First Name</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" id="firstname" name="firstname">
             <label>Last Name</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" id="lastname" name="lastname">
         </div>
         <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <input type="checkbox" class="form-check-input" id="terms" name="terms">
             <label class="form-check-label" for="exampleCheck1">I Agree to Terms and Conditions</label>
           </div>
-         <button type="submit" class="btn btn-primary">Create Account</button>
+         <button type="submit" class="btn btn-primary" id="create" name="create">Create Account</button>
       </form>
 <%- include('../_partial/_footer') -%>
