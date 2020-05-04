@@ -2,15 +2,15 @@
 learning node.js for future projects
 
 ## Note
-* use your own MongoDB keys
+* use your own MongoDB key
 
 ## Dependencies
 * npm
-* node.js
-* express
+* Node.js
+* Express
 * path
 * ejs - for easy templating
-* bootstrap
+* Bootstrap
 * MongoDB
 * Mongoose
 
